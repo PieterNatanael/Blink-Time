@@ -13,6 +13,7 @@
 		21E8293B2C65F18F00C927EA /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E8293A2C65F18F00C927EA /* ImmersiveView.swift */; };
 		21E8293D2C65F19100C927EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E8293C2C65F19100C927EA /* Assets.xcassets */; };
 		21E829402C65F19100C927EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E8293F2C65F19100C927EA /* Preview Assets.xcassets */; };
+		21E829482C65F1CA00C927EA /* blink_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21E829472C65F1C900C927EA /* blink_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21E8293C2C65F19100C927EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E8293F2C65F19100C927EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21E829412C65F19100C927EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E829472C65F1C900C927EA /* blink_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blink_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				21E8293A2C65F18F00C927EA /* ImmersiveView.swift */,
 				21E8293C2C65F19100C927EA /* Assets.xcassets */,
 				21E829412C65F19100C927EA /* Info.plist */,
+				21E829472C65F1C900C927EA /* blink_sound.mp3 */,
 				21E8293E2C65F19100C927EA /* Preview Content */,
 			);
 			path = "Blink Time";
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E829482C65F1CA00C927EA /* blink_sound.mp3 in Resources */,
 				21E829402C65F19100C927EA /* Preview Assets.xcassets in Resources */,
 				21E8293D2C65F19100C927EA /* Assets.xcassets in Resources */,
 			);
@@ -297,6 +301,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -323,6 +329,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +341,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
